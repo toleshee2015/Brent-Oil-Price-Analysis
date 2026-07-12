@@ -1,0 +1,15 @@
+## Model Assumptions
+
+The Bayesian change point model is based on the following assumptions:
+
+1. Brent oil prices are ordered chronologically and accurately represent the market over time.
+
+2. The time series contains one dominant structural change in the mean price.
+
+3. Oil prices before and after the change point follow normal distributions with different means but a common standard deviation.
+
+4. The change point is unknown and is assigned a discrete uniform prior across all observations.
+
+5. The observations are conditionally independent given the model parameters.
+
+6. Major geopolitical and economic events are assumed to be potential drivers of structural changes in oil prices, although the model identifies statistical changes rather than proving causation.
