@@ -1,7 +1,21 @@
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-.env
+# Virtual environments
+venv/
+myenv/
 .venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
 .vscode/
+
+# Environment variables
+.env
+
+# OS files
 .DS_Store
+Thumbs.db
